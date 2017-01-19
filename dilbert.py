@@ -7,7 +7,7 @@ from redis import Redis
 from rq import Queue
 from worker import download_image
 
-base = datetime.datetime(2013, 10, 8, 0, 0)
+base = datetime.datetime(2017, 1, 1, 0, 0)
 #end = datetime.datetime(1993, 1, 1, 0, 0)
 end = datetime.datetime.today()
 
